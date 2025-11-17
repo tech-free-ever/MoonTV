@@ -71,12 +71,4 @@
     "siwazyw.tv": { "name": "🔞丝袜资源", "api": "https://siwazyw.tv/api.php/provide/vod" }
   },
 
-  "player": {
-    "ad_skip": true,
-    "autoplay": false,
-    "cors_proxy": true,
-    "skip_seconds": 30,
-    "mute_ads": true,
-    "quality_priority": "hd"
-
 }
