@@ -82,7 +82,5 @@
 
   "filter": {
     "disable_yellow": ture
-  },
 
-  "downstream_proxy": "https://cors.hakuapi.cc/?url="
 }
