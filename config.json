@@ -78,9 +78,5 @@
     "skip_seconds": 30,
     "mute_ads": true,
     "quality_priority": "hd"
-  },
-
-  "filter": {
-    "disable_yellow": ture
 
 }
