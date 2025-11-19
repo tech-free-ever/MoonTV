@@ -280,6 +280,5 @@
   },
   "filter": {
     "disable_yellow": true
-  },
-  "downstream_proxy": "https://cors.hakuapi.cc/?url="
+  }
 }
