@@ -1,5 +1,8 @@
 {
-  "cache_time": 3600,
+  "cache_time": 86400,
+  "enable_pwa": true,
+  "default_player": "hls.js",
+  "video_quality": "auto",
   "api_site": {
     "iqiyizyapi.com": {
       "name": "🎬爱奇艺资源",
@@ -275,8 +278,7 @@
     "autoplay": false,
     "cors_proxy": true,
     "skip_seconds": 30,
-    "mute_ads": true,
-    "quality_priority": "hd"
+    "mute_ads": true
   },
   "filter": {
     "disable_yellow": true
