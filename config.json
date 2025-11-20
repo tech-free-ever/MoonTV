@@ -4,29 +4,21 @@
   "default_player": "hls.js",
   "video_quality": "auto",
   "api_site": {
-    "yingkudy_vod": {
-      "api": "https://yingkudy.com/lvdou_api.php/v1.vod",
-      "name": "影库官源"
+    "heimuer": {
+      "api": "https://json.heimuer.xyz/api.php/provide/vod",
+      "name": "黑木耳"
     },
-    "okzy_json": {
-      "api": "https://api.okzy.tv/api.php/provide/vod",
-      "name": "OK"
+    "bfzy": {
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "name": "暴风"
     },
-    "tmz_json": {
-      "api": "https://www.tmzapi.com/api.php/provide/vod",
-      "name": "天美"
+    "dyttzy": {
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+      "name": "电影天堂"
     },
-    "ckmov_json": {
-      "api": "https://api.ckmovapi.com/api.php/provide/vod",
-      "name": "CK影视"
-    },
-    "sszy_json": {
-      "api": "https://api.sszyapi.com/api.php/provide/vod/",
-      "name": "神速"
-    },
-    "haiwaikan_json": {
-      "api": "https://haiwaikan.com/api.php/provide/vod/",
-      "name": "海外看"
+    "ruyi": {
+      "api": "http://cj.rycjapi.com/api.php/provide/vod",
+      "name": "如意"
     },
     "91md.me": {
       "name": "🔞麻豆视频",
@@ -159,7 +151,7 @@
   },
   "player": {
     "ad_skip": true,
-    "skip_seconds": 30,
+    "skip_offset": 5,
     "mute_ads": true,
     "auto_skip_midroll": true,
     "autoplay": false,
