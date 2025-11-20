@@ -6,53 +6,27 @@
   "api_site": {
     "yingkudy_vod": {
       "api": "https://yingkudy.com/lvdou_api.php/v1.vod",
-      "name": "影库",
-      "priority": 1
+      "name": "影库官源"
     },
     "okzy_json": {
       "api": "https://api.okzy.tv/api.php/provide/vod",
-      "name": "OK",
-      "priority": 2
+      "name": "OK"
     },
     "tmz_json": {
       "api": "https://www.tmzapi.com/api.php/provide/vod",
-      "name": "天美",
-      "priority": 3
-    },
-    "wujin_xml": {
-      "api": "https://api.wujinapi.com/api.php/provide/vod/from/wjm3u8/at/xml/",
-      "name": "无尽",
-      "priority": 4
+      "name": "天美"
     },
     "ckmov_json": {
       "api": "https://api.ckmovapi.com/api.php/provide/vod",
-      "name": "CK影视",
-      "priority": 5
-    },
-    "anltv_xml": {
-      "api": "http://anltv.cn/api.php/provide/vod/at/xml",
-      "name": "YIM影视",
-      "priority": 6
+      "name": "CK影视"
     },
     "sszy_json": {
       "api": "https://api.sszyapi.com/api.php/provide/vod/",
-      "name": "神速",
-      "priority": 7
+      "name": "神速"
     },
     "haiwaikan_json": {
       "api": "https://haiwaikan.com/api.php/provide/vod/",
-      "name": "海外看",
-      "priority": 8
-    },
-    "junzy_json": {
-      "api": "https://api.junzyapi.com/api.php/provide/vod",
-      "name": "钜",
-      "priority": 9
-    },
-    "yunzy_json": {
-      "api": "https://api.yunzyapi.com/api.php/provide/vod",
-      "name": "云",
-      "priority": 10
+      "name": "海外看"
     },
     "91md.me": {
       "name": "🔞麻豆视频",
@@ -187,11 +161,12 @@
     "ad_skip": true,
     "skip_seconds": 30,
     "mute_ads": true,
+    "auto_skip_midroll": true,
     "autoplay": false,
     "hls_config": {
       "enableWorker": true,
       "skipAds": true
-      }
+    }
   },
   "filter": {
     "disable_yellow": true
