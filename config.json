@@ -1,10 +1,10 @@
 {
-  "cache_time": 6400,
+  "cache_time": 3200,
   "enable_pwa": true,
   "video_quality": "auto",
   "api_site": {
     "dyttzyapi.com": {
-      "name": "电影天堂",
+      "name": "🎬电影天堂",
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod"
     },
     "heimuer": {
@@ -154,12 +154,13 @@
   },
   "player": {
     "ad_skip": true,
-    "skip_offset": 5,
+    "skip_seconds": 30,
     "mute_ads": true,
     "auto_skip_midroll": true,
     "autoplay": false,
     "hls_config": {
-      "skipAds": true
+      "skipAds": true,
+      "enableWorker": true
     }
   },
   "filter": {
