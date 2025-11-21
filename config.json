@@ -1,12 +1,15 @@
 {
-  "cache_time": 86400,
+  "cache_time": 6400,
   "enable_pwa": true,
-  "default_player": "hls.js",
   "video_quality": "auto",
   "api_site": {
+    "dyttzyapi.com": {
+      "name": "电影天堂",
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod"
+    },
     "heimuer": {
       "api": "https://json.heimuer.xyz/api.php/provide/vod",
-      "name": "黑木耳"
+      "name": "黑木"
     },
     "bfzy": {
       "api": "https://bfzyapi.com/api.php/provide/vod",
@@ -156,7 +159,6 @@
     "auto_skip_midroll": true,
     "autoplay": false,
     "hls_config": {
-      "enableWorker": true,
       "skipAds": true
     }
   },
