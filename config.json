@@ -2,13 +2,6 @@
   "search_cache_time": 86400,
   "concurrent_requests": 8,
   "enable_preload": true,
-  "disable_adult_sources": true,
-  "blocked_domains": [
-    "ads.",
-    "track.",
-    "analytics.",
-    "doubleclick."
-  ],
   "focus_visible": true,
   "disable_hover_effects": true,
   "player": {
