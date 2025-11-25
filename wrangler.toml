@@ -1,0 +1,5 @@
+name = "muse-pages-deployment" # 填写一个描述性的名称
+compatibility_date = "2024-11-25" # 填写当前日期或一个更新的日期
+compatibility_flags = [
+    "nodejs_compat"
+]
